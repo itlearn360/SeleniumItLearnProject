@@ -10,7 +10,7 @@ public class AccordianClass {
 System.setProperty("webdriver.chrome.driver", "C:\\Users\\truba\\eclipse-docker\\QA_Project\\Driver\\chromedriver.exe");
 		
 		ChromeDriver  browserObject = new ChromeDriver();
-		
+		browserObject.get("https://demoqa.com/accordian/");
 		browserObject.findElement(By.xpath("//*[@id=\"section1Heading\"]")).click();
 		
 		browserObject.findElement(By.xpath("//*[@id=\"section2Heading\"]")).click();

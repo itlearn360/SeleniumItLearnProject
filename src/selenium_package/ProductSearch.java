@@ -10,7 +10,7 @@ public class ProductSearch {
 		// TODO Auto-generated method stub
 		System.setProperty("webdriver.gecko.driver","C:\\Users\\truba\\eclipse-docker\\QA_Project\\Driver\\geckodriver.exe"); 
 		FirefoxDriver browserObject = new FirefoxDriver();
-		// 3. Open the http://www.google.com/ link using get method.
+		
 	        browserObject.get("http://www.amazon.com/");
 		
 		browserObject.findElement(By.id("twotabsearchtextbox")).sendKeys("Macbook");

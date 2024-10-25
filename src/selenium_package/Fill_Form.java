@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 
-public class Fill_Form {
+public class Fill_Form_Radio_Checkbox_Dropdown_Alert{
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub

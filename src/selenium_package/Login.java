@@ -6,7 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Login {
+public class LoginImplicitWait {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
